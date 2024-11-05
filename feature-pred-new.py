@@ -25,7 +25,7 @@ def load_data(file_path):
         print(f"An error occurred: {e}")
         return None
 
-file_path = '/content/drive/MyDrive/KSU/RCapstone/feature-prediction/data/input_data.xlsx'  # Update this to the correct path
+file_path = '<path>data/input_data.xlsx'  # Update this to the correct path
 data = load_data(file_path)
 
 
